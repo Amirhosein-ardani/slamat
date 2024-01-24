@@ -1,0 +1,238 @@
+body{
+    direction: rtl;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: vazir2;
+    src: url(../font/Vazir.woff2);
+}
+@font-face {
+    font-family: vazirbold;
+    src: url(../font/Vazir-Bold.woff2);
+}
+@font-face {
+    font-family: yekanbold;
+    src: url(../font/BYekan+\ Bold.ttf);
+}
+h2{
+    font-family: vazirblod;
+    font-style: italic;
+    margin: 15px 30px 15px 80px;
+    color:red;
+    display: block;
+    padding: 35px 0px 0px 0px ;
+}
+.matn{
+    font-family: vazir2;
+    font-weight: 600PX ;
+    
+    text-align: justify;
+    line-height:37px ;
+    margin: 0px 30px;
+}
+.pv{
+    width: 1400;
+    height: 480;
+    margin: 20px 45px;
+    border: 8px rgb(243, 215, 235) ;
+    border-style: ridge;
+    border-radius: 15px;
+}
+.pv:hover{
+    color:white;
+    border-bottom-left-radius: 130px;
+}
+.heder{
+    width: 1450px;
+    height: 80px;
+    border: 2px black solid;
+    background-color: rgb(198, 248, 233);
+    margin: 20px 30px 5px 15px  ;
+    font-family: vazirbold;
+    border-radius: 15px;
+    
+    
+
+
+
+}
+
+.logo{
+    background-color:rgb(198, 248, 233);
+    width:150px ;
+    height: 35px;
+    margin: 0px 5px 0px 20px;
+    display: inline-block;
+    padding: 8px 40px 10px 10px;
+    font-size: 50px;
+    
+
+
+}
+.d1{
+
+    font-family:vazirbold ;
+    background-color: rgb(198, 248, 233);
+    width: 150px;
+    height: 35px;
+    margin: 20px 15px 0px 10px;
+    display: inline-block;
+    padding: 10px 5px 15px 10px;
+    font-size: 19px;
+    
+}
+.d2{
+    background-color:rgb(198, 248, 233);
+    width: 150px;
+    height: 35px;
+    margin: 20px 15px 15px 10px;
+    display: inline-block   ; 
+    padding: 10px 5px 15px 10px; 
+    font-size: 19px;
+    
+}
+.d3{
+    background-color: rgb(198, 248, 233);
+    width: 180px;
+    height: 35px;
+    margin: 20px 5px 15px 10px;
+    display: inline-block   ;
+    padding: 10px 5px 15px 10px;
+    font-size: 19px;
+}
+.d4{
+    background-color: rgb(198, 248, 233)e;
+    width: 190px;
+    height: 40px;
+    margin: 20px 220px 15px 5px;
+    display: inline-block   ;
+    padding: 10px 20px 15px 10px;
+    font-size: 18px;
+}
+.d4:hover{
+    border: 2px black solid;
+    color: rgb(133, 126, 126);
+    
+}
+.search{
+    background-color: aliceblue;
+    width: 250px;
+    height: 35px;
+    margin: 20px 20px 15px 15px;
+    display: inline-block   ;
+    padding: 10px 20px 15px 10px;
+    border: 2px black solid;
+    
+}
+
+video{
+    margin: -70px 20px 10px 10px;
+    width: 600PX;
+    height: auto;
+    float: right;
+    border-radius: 5px;
+    
+    
+}
+table{
+    width: 900px;
+    height: 250px;
+    border: 2px rgba(107, 103, 103, 0.89) solid;
+    margin: 20px 290px 10px 30px;
+    padding: 8px 10px 8px 20px;
+    border-collapse: collapse;
+    font-family: vazirbold;
+}
+tr{
+    width: 300px;
+    border-bottom: 2px black solid;
+    background-color: rgb(224, 250, 241);
+
+}
+.color{
+    border-bottom: 2px black solid;
+    background-color: white;
+}
+tr:hover{
+    background-color: aqua;
+
+}
+.orderlist{
+    width: 620px;
+    height: 500px;
+    background-color:rgb(163, 161, 24);
+    margin: 100px 800px 10px 10px;
+    padding: 70px 40px 120px 40px;
+    line-height: 50PX;
+    color: whitesmoke;
+    font-family: vazir2;
+    font-size: 18px;
+    border-top-right-radius: 30px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-color: rgb(247, 212, 178);
+    border-bottom-style: ridge;
+    border-left-color: rgb(247, 193, 154);
+    border-left-style: ridge;
+    border-bottom-width:8px;
+    border-left-width: 8px;
+}
+.orderlist:hover{
+    border-top:25px rgb(243, 204, 175)  ridge;
+    
+}
+h3{
+    font-family: yekanbold;
+    background-color: rgb(250, 178, 232);
+    margin: 15px 20px 20px 10px ;
+    width: 900px;
+    height: auto;
+    border-radius: 30px;
+}
+.h3{
+    
+    font-family: yekanbold;
+    background-color: rgb(250, 178, 232);
+    margin: 15px 20px 20px 10px ;
+    width: 700px;
+    height: auto;
+    border-radius: 30px;
+}
+.h4{
+    
+    font-family: yekanbold;
+    background-color: rgb(250, 178, 232);
+    margin: 15px 20px 20px 10px ;
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+
+    
+}
+a:hover{
+    
+    border-radius: 8px;
+    background-color: white;
+}
+a:active{
+    color: rgb(231, 28, 28);
+    border-radius: 5px;
+    background-color: rgb(236, 231, 231);
+}
+.pv2{
+    width: 1000px;
+    height: 500px;
+    margin: 20px   250px 20px 20px;
+    border-radius: 30px;
+}
+.pv2:hover{
+    border-top: 4px rgb(216, 18, 18) solid;
+    border-right: 4px rgb(209, 30, 30) solid;
+} 
